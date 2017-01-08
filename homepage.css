@@ -60,6 +60,7 @@ font-family: 'Baloo Bhaina', cursive;
 
 .into-pic {
     border-bottom: 2px solid lightgray;
+    overflow: scroll;
 }
 
 .into-pic img {
