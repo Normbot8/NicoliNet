@@ -1,0 +1,146 @@
+/*MOAR Fonts:
+font-family: 'Orbitron', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Baloo Bhaina', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    position: fixed;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    font-size: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+.heading h2 {
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    color: #ff0000;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.subheading {
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.heading p {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    color: #082149;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    transition: all .5s ease-out;
+    vertical-align: top;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: lightgray;
+    cursor: pointer;
+}
+
+.heading p:hover {
+    font-size: 29px;
+}
+
+.body {
+    background-color: #EEEFF1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 112px;
+}
+
+.intro {
+    margin-top: 112px;
+}
+
+.into-pic {
+    border-bottom: 2px solid lightgray;
+    overflow: scroll;
+}
+
+.title {
+    text-align: center;
+    padding-top: 15px;
+    font: 40px 'Luckiest Guy', cursive;
+    color: darkgreen;
+}
+
+.into-pic img {
+    display: block;
+    margin: auto;
+    width: 78%;
+}
+
+.intro p {
+    font: 20px 'Baloo bhaina', cursive;
+    padding: 10px;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    border-bottom: 2px solid lightgray;
+}
+
+#address {
+    border-bottom-width: 0px;
+    padding-bottom: 0px
+}
+
+#latlong {
+    font-size: 10px;
+    padding-top: 0px;
+}
+
+.NicoliNet {
+    font: 25px 'orbitron', cursive;
+    cursor: pointer;
+}
+
+form {
+    padding: 10px;
+}
+
+#custom {
+    width: 350px;
+}
+
+#test {
+    width: 150px;
+}
+
+#print {
+    width: 100px;
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    height: 200px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px
+}
+
+.footer p {
+    padding: 20px 20px;
+}
+
+.Nicolinet.com {
+    cursor: pointer;
+}
+
+.footer a {
+    color: inherit;
+    cursor: pointer;
+}
