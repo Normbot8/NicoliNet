@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NicoliNet</title>
+    <link rel='stylesheet' type='text/css' href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/thankyou.css">
     <link rel="icon" href="pics/icon.png">
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
@@ -13,8 +14,25 @@
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='css/termsofservice.css'>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-98369927-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
+<!-- Renovated -->
 
 <body>
     <div class="heading">
@@ -80,6 +98,7 @@
                         <option value="fun">fun</option>
                         <option value="expensive">expensive</option>
                         <option value="cheapskate">cheapskate</option>
+                        <option value='cheapsteak'>cheapsteak</option>
                         <option value="hilarious">hilarious</option>
                         <option value="rad">rad</option>
                         <option value="job">job</option>
@@ -93,6 +112,7 @@
                         <option value="lovely">lovely</option>
                         <option value="unique">unique</option>
                         <option value="special">special</option>
+                        <option value='lit'>lit</option>
                     </select>
                     <select name="adjective2" class="input" id="adj2">
                         <option value="cool">cool</option>
@@ -100,6 +120,7 @@
                         <option value="fun">fun</option>
                         <option value="expensive">expensive</option>
                         <option value="cheapskate">cheapskate</option>
+                        <option value='cheapsteak'>cheapsteak</option>
                         <option value="hilarious">hilarious</option>
                         <option value="rad">rad</option>
                         <option value="job">job</option>
@@ -113,6 +134,7 @@
                         <option value="lovely">lovely</option>
                         <option value="unique">unique</option>
                         <option value="special">special</option>
+                        <option value='lit'>lit</option>
                     </select>
                 </p>
                 <p>
@@ -125,12 +147,15 @@
                         <option value="cool">cool</option>
                         <option value="job">job</option>
                         <option value="rad">rad</option>
+                        <option value="cheapskate">cheapskate</option>
+                        <option value='cheapsteak'>cheapsteak</option>
                         <option value="thoughtful">thoughtful</option>
                         <option value="caring">caring</option>
                         <option value="cool">nice</option>
                         <option value="sweet">sweet</option>
                         <option value="generous">generous</option>
                         <option value="grand">grand</option>
+                        <option value='gangster'>gangster</option>
                     </select>
                 </p>
                 <p>
@@ -188,11 +213,11 @@
 
         </div>
 
-        <iframe id="ifmcontentstoprint" style="height: 0px; width: 0px; position: absolute"></iframe>
+        <iframe id="ifmcontentstoprint" style="height: 0px; width: 0px; position: absolute;"></iframe>
 
     </div>
     <div class=footer>
-        <p><span class="Nicolinet.com" value="PLAY" onclick="play()">NicoliNet</span>.com <br>&copy;2016 Nicoli Industries.<br>Website created by the Grate Nicoli.<br><br>Some images subject to copyright, except when possibly otherwise specified. For example, see our thumbnail up there? That's actually free for anybody to use and stuff. However, that grate picture of The Grate Nicoli at the top of the page is probably subject to copyright law, as it is an original work from our founder, The Grate Nicoli. If you were expecting a site map down here, you've come to the wrong place. The right place is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here</a>. *snicker* *snicker*</p>
+        <p><span class="Nicolinet.com" value="PLAY" onclick="play()">NicoliNet</span>.com <br>&copy;2017 Nicoli Industries.<br>Website created by the Grate Nicoli.<br><br>Some images subject to copyright, except when possibly otherwise specified. For example, see our thumbnail up there? That's actually free for anybody to use and stuff. However, that grate picture of The Grate Nicoli at the top of the page is probably subject to copyright law, as it is an original work from our founder, The Grate Nicoli. If you were expecting a site map down here, you've come to the wrong place. The right place is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here</a>. *snicker* *snicker*</p>
     </div>
     <script src="javascript/generator.js"></script>
     <script src='javascript/print.js'></script>
@@ -200,8 +225,9 @@
     <script src="javascript/jquery-3.2.0.js"></script>
     <script src="javascript/jscheck.js"></script>
     <script src='javascript/termsofservice.js'></script>
-<script src='javascript/location.js'></script>
+    <script src='javascript/location.js'></script>
     <script src="https://freegeoip.net/json/?callback=locateLocation"></script>
+    <script src='javascript/customizer.js'></script>
 </body>
 
 </html>
