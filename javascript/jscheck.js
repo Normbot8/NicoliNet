@@ -1,1 +1,0 @@
-$('#jscheck').remove();
