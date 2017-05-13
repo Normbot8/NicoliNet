@@ -1,0 +1,61 @@
+/*MOAR Fonts:
+font-family: 'Orbitron', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Baloo Bhaina', cursive;
+*/
+
+.Yo {
+    display: inline-block;
+    font: 30px 'Sigmar One', cursive;
+    color: red;
+    transform: rotate(-10deg);
+}
+
+.body {
+    background-color: #EEEFF1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NicoliNetTheme h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font: 30px 'Sigmar One';
+    color: Mediumblue;
+}
+
+.NicoliNetTheme img {
+    display: inline-block;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.NicoliNetTheme p {
+    display: inline-block;
+    vertical-align: middle;
+    font: 20px 'Baloo bhaina';
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    height: 200px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px
+}
+
+.footer p {
+    padding: 20px 20px;
+}
+
+.Nicolinet.com {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
