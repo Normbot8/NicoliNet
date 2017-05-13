@@ -1,2 +1,2 @@
 # NicoliNet FULL RELEASE
-This is DEFINITLY a good website.
+This is DEFINITELY a good website. (LOL IT WAS SPELL WRONG FOR FOUR MONTHS)
