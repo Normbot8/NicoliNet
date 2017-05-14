@@ -12,13 +12,13 @@ $(function () {
             $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/nicoliastley.png\" alt=\"The Grate Nicoli\"></div>');
             $('body').append('<iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/k5pL79ywoTY\?autoplay=1&loop=1&playlist=k5pL79ywoTY\" frameborder=\"0\" allowfullscreen style=\'z-index:-10000; position:fixed\'></iframe>');
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                $('.into-pic').replaceWith('<div class=\"into-pic\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/k5pL79ywoTY\?autoplay=1&loop=1&playlist=k5pL79ywoTY\" frameborder=\"0\" allowfullscreen style=\'z-index:-10000; position:fixed\'></iframe></div>');
+                $('.into-pic').replaceWith('<div class=\"into-pic\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/k5pL79ywoTY\?autoplay=1&loop=1&playlist=k5pL79ywoTY\" frameborder=\"0\" allowfullscreen></iframe></div>');
             }
         } else if (music === 'wham') {
             $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/nicoliwham.png\" alt=\"The Grate Nicoli\"></div>');
             $('body').append('<iframe width=\"100\" height=\"100\" src=\"https://www.youtube.com/embed/gpqmoBYkQfc\?autoplay=1&loop=1&playlist=gpqmoBYkQfc\" frameborder=\"0\" style=\'z-index:-10000; position:fixed\'></iframe>');
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                $('.into-pic').replaceWith('<div class=\"into-pic\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/gpqmoBYkQfc\?autoplay=1&loop=1&playlist=gpqmoBYkQfc\" frameborder=\"0\" style=\'z-index:-10000; position:fixed\'></iframe></div>');
+                $('.into-pic').replaceWith('<div class=\"into-pic\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/gpqmoBYkQfc\?autoplay=1&loop=1&playlist=gpqmoBYkQfc\" frameborder=\"0\"></iframe></div>');
             }
         }
         if (nickName === "") {
