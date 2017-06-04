@@ -41,6 +41,9 @@ $(function () {
                 $('#recipent').val(nickName);
             }
         }
+        if (betaTester === 'Yay') {
+            window.location.replace('/beta' + page);
+        }
 
     }
 })
