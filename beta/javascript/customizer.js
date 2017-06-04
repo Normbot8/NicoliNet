@@ -41,7 +41,7 @@ $(function () {
                 $('#recipent').val(nickName);
             }
         }
-        if (betaTester === 'Yay') {
+        if (betaTester === 'yes') {
             window.location.replace('/beta' + page);
         }
 
