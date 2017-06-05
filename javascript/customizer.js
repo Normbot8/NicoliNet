@@ -41,6 +41,13 @@ $(function () {
                 $('#recipent').val(nickName);
             }
         }
+       if (betaTester === 'yes') {
+           var pageSub = page.substr(10);
+           if (pageSub === '') {
+               var pageSub = 'index.html';
+           }
+           window.location.replace('/nicolinet/beta/' + pageSub);
+       }
 
     }
 })
