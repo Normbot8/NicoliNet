@@ -26,15 +26,16 @@ $(function () {
         } else if (nickName !== "") {
             $('.heading h2').text(nickName + '\'s NicoliNet');
         }
-        var page = window.location.pathname;
-        if (page === '/index.html') {
+        var pageSub = window.location.pathname;
+        var page = pageSub.substr(10);
+        if (page === '') {
             if (nickName === "") {
                 $('#mydudes').text(firstName + ' ' + middleName + ' ' + lastName);
             } else if (nickName !== "") {
                 $('#mydudes').text(nickName);
             }
         }
-        if (page === '/1h@nky0u.html') {
+        if (page === '1h@nky0u.html') {
             if (nickName === "") {
                 $('#recipent').val(firstName + ' ' + middleName + ' ' + lastName);
             } else if (nickName !== "") {
@@ -42,11 +43,10 @@ $(function () {
             }
         }
        if (betaTester === 'yes') {
-           var pageSub = page.substr(10);
-           if (pageSub === '') {
-               var pageSub = 'index.html';
+           if (page === '') {
+               var page = 'index.html'
            }
-           window.location.replace('/nicolinet/beta/' + pageSub);
+           window.location.replace('/nicolinet/beta/' + page);
        }
 
     }
