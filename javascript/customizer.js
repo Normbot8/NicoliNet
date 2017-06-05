@@ -28,7 +28,7 @@ $(function () {
         }
         var pageSub = window.location.pathname;
         var page = pageSub.substr(10);
-        if (page === '') {
+        if (page === '/') {
             if (nickName === "") {
                 $('#mydudes').text(firstName + ' ' + middleName + ' ' + lastName);
             } else if (nickName !== "") {
@@ -46,7 +46,7 @@ $(function () {
            if (page === '') {
                var page = 'index.html'
            }
-           window.location.replace('/nicolinet/beta/' + page);
+           window.location.replace('/nicolinet/beta' + page);
        }
 
     }
