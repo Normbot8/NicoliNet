@@ -27,7 +27,7 @@ $(function () {
             $('.heading h2').text(nickName + '\'s NicoliNet');
         }
         var pageSub = window.location.pathname;
-        var page = pageSub.substr(10);
+        var page = pageSub.substr(11);
         if (page === '/') {
             if (nickName === "") {
                 $('#mydudes').text(firstName + ' ' + middleName + ' ' + lastName);
