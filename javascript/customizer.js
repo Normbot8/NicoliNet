@@ -42,12 +42,6 @@ $(function () {
                 $('#recipent').val(nickName);
             }
         }
-       if (betaTester === 'yes') {
-           if (page === '') {
-               var page = 'index.html'
-           }
-           window.location.replace('/nicolinet/beta' + page);
-       }
 
     }
 })
