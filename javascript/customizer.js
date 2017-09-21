@@ -19,9 +19,9 @@ $(function () {
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         }
         
-        if (1 === 1) {
+        if (nickName === null) {
             $('.heading h2').text(firstName + ' ' + middleName + ' ' + lastName + "\'s NicoliNet");
-        } else if (nickName !== "") {
+        } else if (nickName !== null) {
             $('.heading h2').text(nickName + '\'s NicoliNet');
         }
         
