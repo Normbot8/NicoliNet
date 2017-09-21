@@ -19,7 +19,7 @@ $(function () {
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         }
         $('.heading h2').text(firstName + ' ' + middleName + ' ' + lastName + "\'s NicoliNet");
-        }
+        
         var pageSub = window.location.pathname;
         var page = pageSub.substr(11);
         if (page === '/') {
