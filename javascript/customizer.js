@@ -18,7 +18,12 @@ $(function () {
             var firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         }
-        $('.heading h2').text(firstName + ' ' + middleName + ' ' + lastName + "\'s NicoliNet");
+        
+        if (nickName === "") {
+            $('.heading h2').text(firstName + ' ' + middleName + ' ' + lastName + "\'s NicoliNet");
+        } else if (nickName !== "") {
+            $('.heading h2').text(nickName + '\'s NicoliNet');
+        }
         
         var pageSub = window.location.pathname;
         var page = pageSub.substr(11);
