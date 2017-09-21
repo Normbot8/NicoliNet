@@ -19,7 +19,7 @@ $(function () {
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         }
         
-        if (nickName === "") {
+        if (1 === 1) {
             $('.heading h2').text(firstName + ' ' + middleName + ' ' + lastName + "\'s NicoliNet");
         } else if (nickName !== "") {
             $('.heading h2').text(nickName + '\'s NicoliNet');
