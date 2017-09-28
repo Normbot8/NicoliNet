@@ -27,17 +27,17 @@ $(function () {
         
         var pageSub = window.location.pathname;
         var page = pageSub.substr(11);
-        if (page === '/') {
-            if (nickName === "") {
+        if (page === '') {
+            if (nickName === null || nickName === "") {
                 $('#mydudes').text(firstName + ' ' + middleName + ' ' + lastName);
-            } else if (nickName !== "") {
+            } else if (nickName !== null && nickName !== "") {
                 $('#mydudes').text(nickName);
             }
         }
         if (page === '1h@nky0u.html') {
-            if (nickName === "") {
+            if (nickName === null || nickName === "") {
                 $('#recipent').val(firstName + ' ' + middleName + ' ' + lastName);
-            } else if (nickName !== "") {
+            } else if (nickName !== null && nickName !== "") {
                 $('#recipent').val(nickName);
             }
         }
