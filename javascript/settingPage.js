@@ -16,7 +16,7 @@ $(function () {
         if (betaTester === 'yes') {
             $("#betayes").prop("checked", true);
         } else if (betaTester === 'no') {
-            $("betano").prop("checked", true);
+            $("#betano").prop("checked", true);
         }
         if (music === 'astley') {
             $("#astley").prop("checked", true);
