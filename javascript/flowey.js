@@ -6,7 +6,7 @@ $(function () {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     var floweyTime = randomInc(1, 100);
-    if (floweyTime === 99 || firstName === "flowey") {
+    if (firstName === "flowey") {
         $('.heading h2').text('FloweyNet');
         $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/flowey.png\" alt=\"The Grate Nicoli\"></div>');
         $('p').text('Howdy! I\'m FLOWEY! FLOWEY the FLOWER!');
