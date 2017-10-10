@@ -1,5 +1,5 @@
 $(function () {
-    var firstName = localstorage.getItem("firstName");
+    var firstName = localStorage.getItem("firstName");
     function randomInc(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
