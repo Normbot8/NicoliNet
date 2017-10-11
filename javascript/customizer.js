@@ -41,7 +41,7 @@ $(function () {
                 $('#recipent').val(nickName);
             }
         }
-        var isBeta = false;
+        var isBeta = true;
         if (betaTester === 'yes' && isBeta === true) {
             window.location.replace('/nicolinetbeta/' + page);
         }
