@@ -1,2 +1,2 @@
-# NicoliNet FULL RELEASE
-This is DEFINITELY a good website. (LOL IT WAS SPELL WRONG FOR FOUR MONTHS)
+# nicolinetbeta
+Betas for NicoliNet (there are currently no betas)

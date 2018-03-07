@@ -3,9 +3,9 @@ $('#submitCustomizeForm').on('click', function (event) {
     $('.required').remove();
     $('#accepted').remove();
     var firstName = $('#firstName').val();
-    if (firstName.substr('0,10') === "nicoli_1817") {
+    if (firstName.substr('0', '11') === "nicoli_1817") {
         firstName = firstName.substr('11');
-        localStorage.setItem('tool', 1);
+        localStorage.setItem('tool', '1');
     }
     if (firstName === "") {
         $('#firstName').parent().after('<span class=\"required\">Yo, yo yo, the above field is required!</span>');

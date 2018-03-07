@@ -20,6 +20,31 @@ font-family: 'Baloo Bhaina', cursive;
     margin-right: auto;
 }
 
+#suggestStuff {
+    display: block;
+    margin: auto;
+    border-bottom: 2px solid lightgray;
+}
+
+#suggestTitle {
+    font: 35px "Orbitron", sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#suggestDescription {
+    font: 20px 'Baloo bhaina', sans-serif;
+    padding: 0px 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+#suggestForm {
+    display: block;
+    margin: auto;
+    border-right: 3px solid lightgray;
+    border-left: 3px solid lightgray;
+}
+
 #amazonTitle {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
@@ -43,6 +68,7 @@ font-family: 'Baloo Bhaina', cursive;
     color: #232F3E;
     font-size: 20px;
     vertical-align: top;
+    padding-left: 10px;
 }
 
 .buyImage {
@@ -77,6 +103,7 @@ font-family: 'Baloo Bhaina', cursive;
     vertical-align: middle;
     font: 30px 'Sigmar One';
     color: Mediumblue;
+    padding-left: 10px;
 }
 
 .NicoliNetTheme img {
@@ -89,4 +116,5 @@ font-family: 'Baloo Bhaina', cursive;
     display: inline-block;
     vertical-align: middle;
     font: 20px 'Baloo bhaina';
+    padding: 10px;
 }

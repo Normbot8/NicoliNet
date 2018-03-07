@@ -17,7 +17,7 @@ if (music === "astley" && sans === "no") {
     }
 }
 if (sans === "yes") {
-    $('*').css("font-family", "Comic Sans MS");
+    $('*').css("font-family", "Comic Sans");
     $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/sansnicoli.png\" alt=\"The Grate Nicoli\"></div>');
     musicID = 'ZcoqR9Bwx1Y'
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {

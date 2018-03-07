@@ -4,7 +4,7 @@ $(function () {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var splashInt = randomInc(1, 33);
+    var splashInt = randomInc(1, 42);
     //time to use a (NINTENDO) switch statement
     switch (splashInt) {
         case 1:
@@ -21,6 +21,7 @@ $(function () {
             break;
         case 5:
             $('#splash').html('<p id=\'splash\'>&#x1F3f3 0 &#x1F308</p>');
+            break;
         case 6:
             $('#splash').text('It is Wwwwwwwednesday my dudes.');
             break;
@@ -69,6 +70,7 @@ $(function () {
             break;
         case 21:
             $('#splash').text('Supporting Net Neutrality!');
+            $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/ComcastNicoli.png\" alt=\"The Grate Nicoli\"></div>');
             break;
         case 22:
             $('#splash').text('There is a lightness in the dark!');
@@ -78,6 +80,7 @@ $(function () {
             break;
         case 24:
             $('#splash').text('Spyder-rav!');
+            $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/spiderrav.jpg\" alt=\"The Grate Nicoli\"></div>');
             break;
         case 25:
             $('#splash').text('Raising your gangsterity!');
@@ -99,13 +102,40 @@ $(function () {
             break;
         case 31:
             $('#splash').text('Comic Sans is the best font!');
-            $('#splash').css('font-family', 'Comic Sans MS');
+            $('#splash').css('font-family', 'Comic Sans');
             break;
         case 32:
             $('#splash').text('All the memes!');
             break;
         case 33:
             $('#splash').text('lol i think i actually deleted system32 on my ssd');
+            break;
+        case 34:
+            $('#splash').text('He wanted Chinese, but she wanted Chinese.');
+            break;
+        case 35:
+            $('#splash').text('\'\'Only 40 thousand dollars in my bank account\'\'');
+            break;
+        case 36:
+            $('#splash').text('PC Master Race');
+            break;
+        case 37:
+            $('#splash').text('Do u kno da wae?');
+            break;
+        case 38:
+            $('#splash').text('Is your refrigerator running?');
+            break;
+        case 39:
+            $('#splash').text('The GTX 1080 in its natural habitat.');
+            break;
+        case 40:
+            $('#splash').text('Sponsored by NicoliNet');
+            break;
+        case 41:
+            $('#splash').text('Oh drats.');
+            break;
+        case 42:
+            $('#splash').text('\'\'You can check out any time you want, but you can never leave.\'\'');
             break;
         default:
             break;
