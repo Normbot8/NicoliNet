@@ -80,7 +80,7 @@ $(function () {
             break;
         case 24:
             $('#splash').text('Spyder-rav!');
-            $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/spiderrav.jpg\" alt=\"The Grate Nicoli\"></div>');
+            $('.into-pic').replaceWith('<div class=\"into-pic\"><img src=\"pics/spiderrav.JPG\" alt=\"The Grate Nicoli\"></div>');
             break;
         case 25:
             $('#splash').text('Raising your gangsterity!');
