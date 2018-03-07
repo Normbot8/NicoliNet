@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: "Comic Sans";
-    src: url("css/comic.ttf") format("truetype"),
-        url("css/comic.svg") format("svg");
+    src: url("comic.ttf") format("truetype"),
+        url("comic.svg") format("svg");
 }
 
 .heading {
