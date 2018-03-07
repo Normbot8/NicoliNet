@@ -1,2 +1,2 @@
-# nicolinetbeta
-Betas for NicoliNet (there are currently no betas)
+ # NicoliNet FULL RELEASE
+This is DEFINITLY a good website.
