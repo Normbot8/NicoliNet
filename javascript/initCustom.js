@@ -12,10 +12,6 @@ $('#submitCustomizeForm').on('click', function (event) {
         return;
     }
     var middleName = $('#middleName').val();
-    if (middleName === "") {
-        $('#middleName').parent().after('<span class=\"required\">Yo, yo yo, the above field is required!</span>');
-        return;
-    }
     var lastName = $('#lastName').val();
     if (lastName === "") {
         $('#lastName').parent().after('<span class=\"required\">Yo, yo yo, the above field is required!</span>');
