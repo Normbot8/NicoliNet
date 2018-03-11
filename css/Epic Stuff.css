@@ -147,11 +147,10 @@ a {
     text-align: center;
 }
 
-.thisvid img {
-    display: block;
+.thisvid iframe {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    display: block;
 }
 
 .thisvid p {

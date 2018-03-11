@@ -4,7 +4,7 @@ $(function () {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var splashInt = randomInc(1, 42);
+    var splashInt = randomInc(1, 45);
     //time to use a (NINTENDO) switch statement
     switch (splashInt) {
         case 1:
@@ -136,6 +136,15 @@ $(function () {
             break;
         case 42:
             $('#splash').text('\'\'You can check out any time you want, but you can never leave.\'\'');
+            break;
+        case 43:
+            $('#splash').html('<p id=\'splash\'><a href=\"staff.html\">Come meet our staff!</a></p>');
+            break;
+        case 44:
+            $('#splash').text('MOOOOOOOLTEEEEEEEN COOOOOOOOOORE!!!!!!!!!!!!!!');
+            break;
+        case 45:
+            $('#splash').text('i need healing');
             break;
         default:
             break;

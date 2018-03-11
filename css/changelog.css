@@ -1,0 +1,15 @@
+.update {
+    border-bottom: 2px solid lightgray;
+}
+
+.updateTitle {
+    text-align: center;
+    font: 40px "Quicksand", sans-serif;
+}
+
+.updateItems {
+    font: 20px "Comic Sans", sans-serif;
+    padding-left: 35%;
+}
+
+

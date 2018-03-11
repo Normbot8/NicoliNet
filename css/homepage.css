@@ -98,6 +98,21 @@ font-family: 'Baloo Bhaina', cursive;
     text-decoration: none;
 }
 
+#change {
+    border-bottom: 2px solid lightgray;
+}
+
+#changeTitle {
+    font: 35px "Orbitron", sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#changeText {
+    font: 20px 'Baloo bhaina', sans-serif;
+    padding: 0px 10px;
+}
+
 .NicoliNetTheme h2 {
     display: inline-block;
     vertical-align: middle;
